@@ -18,13 +18,12 @@ To deliver the test, fork this project and provide the following items:
 - The software and its ecosystem will be run and tested on a local computer.
 
 _Note: You can use Docker and docker-compose to provide the databases._
-_Note: Use only the standard lib, except for the database drivers._
+_Note: Use makefile for build, testing, running and starting dependencies._
 
 ## Authentication
 
 The authentication is done by basic auth.
-The crendentials must be checked in redis. If redis fails to respond, 
-then the credentials must be checked in postgres.
+The credentials must be checked in postgres.
 
 | field | type |
 | --- | --- |
